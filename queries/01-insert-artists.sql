@@ -9,3 +9,11 @@ CREATE TABLE artistas (
     musica_mais_ouvida VARCHAR(50),
     ativo BOOLEAN DEFAULT TRUE
 );
+
+INSERT INTO artistas (nome, tipo, membros, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo)
+VALUES 
+('Stray Kids', 'Banda', 8, 'K-Pop', 'Coreia do Sul', 2018, 'Chk Chk Boom', TRUE),
+('Mitski', 'Solo', 1, 'Alternativa/indie', 'Japão', 2012, 'My Love Mine All Mine', TRUE),
+('Wave to Earth', 'Banda', 3, 'Rock', 'Coreia do Sul', 2019, 'Seasons', TRUE),
+('BTS', 'Banda', 7, 'K-Pop', 'Coreia do Sul', 2013, 'Dynamite', TRUE);
+
