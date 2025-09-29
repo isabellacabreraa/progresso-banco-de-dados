@@ -1,6 +1,6 @@
 CREATE DATABASE beautytechdatabase;
 
-CREATE TABLE produtos_beleza (
+CREATE TABLE produtos (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     marca VARCHAR(50) NOT NULL,
