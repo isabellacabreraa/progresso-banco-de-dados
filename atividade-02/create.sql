@@ -9,8 +9,3 @@ CREATE TABLE produtos_beleza (
     estoque INT DEFAULT 0
 );
 
-INSERT INTO produtos_beleza (nome, marca, preco, categoria, estoque)
-VALUES ('Gloss Labial', 'Fenty Beauty', 159.00, 'Maquiagem', 2000),
-('Niacinamida', 'The Ordinary',129.90, 'Skincare', 540),
-('Contorno Líquido', 'Rare Beauty', 245.65, 'Maquiagem', 3000),
-('Blush Líquido', 'Rare Beauty', 200, 'Maquiagem', 1400),
